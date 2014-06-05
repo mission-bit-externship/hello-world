@@ -6,8 +6,18 @@
 /* select all html elements that have a class attribute equal to "red" */
 .red {
     background-color: red;
+    position: relative;
 }
 
 .green {
     background-color: green;
+    position: relative;
+}
+
+.move-right {
+  left: 200px;
+}
+
+.move-far-right {
+  left: 400px;
 }
